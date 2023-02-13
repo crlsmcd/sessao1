@@ -1,12 +1,9 @@
-basic.forever(function () {
-    basic.showString("Carlos")
-    basic.showLeds(`
-        . . . . .
-        . # . # .
-        . . . . .
-        # . . . #
-        . # # # .
-        `)
-    basic.pause(200)
-    basic.clearScreen()
+input.onButtonPressed(Button.A, function () {
+    basic.showNumber(56)
+})
+input.onButtonPressed(Button.AB, function () {
+    basic.showIcon(IconNames.Heart)
+})
+input.onButtonPressed(Button.B, function () {
+    basic.showString("Hello!")
 })
