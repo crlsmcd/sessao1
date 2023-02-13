@@ -1,46 +1,12 @@
 basic.forever(function () {
+    basic.showString("Carlos")
     basic.showLeds(`
-        # # # # #
-        # . . . .
-        # . . . .
-        # . . . .
-        # # # # #
-        `)
-    basic.showLeds(`
-        . . # . .
         . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
         . # # # .
-        . . . . .
-        # . . . #
         `)
-    basic.showLeds(`
-        # # # # #
-        # . . . #
-        # # # # #
-        # . # . .
-        # . . # .
-        `)
-    basic.showLeds(`
-        # . . . .
-        # . . . .
-        # . . . .
-        # . . . .
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # . . . #
-        # . . . #
-        # . . . #
-        # # # # #
-        `)
-    basic.showLeds(`
-        # # # # #
-        # . . . .
-        # # # # #
-        . . . . #
-        # # # # #
-        `)
+    basic.pause(200)
     basic.clearScreen()
-    basic.pause(2000)
 })
